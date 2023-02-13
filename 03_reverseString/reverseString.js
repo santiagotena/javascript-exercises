@@ -5,7 +5,7 @@ const reverseString = function(string) {
 	
 	splitString = string.split("");
 	revSplitString = [];
-	length = splitString.length
+	length = splitString.length;
 	for (let i = 0; i < length; i++) {
 		revSplitString[(length - 1) - i] = splitString[i]; 
 	}
